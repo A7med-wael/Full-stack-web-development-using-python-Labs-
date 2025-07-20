@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background-color: #d8dcd2;
+}
+
+/* nav-bar */
+nav .linksbar {
+    background-color: #333;
+    overflow: hidden;
+    
+}
+.linksbar a {
+    display: block;
+    color: white;
+    float: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .linksbar a:hover{
+    background-color: green;
+    color: black;
+}
+
