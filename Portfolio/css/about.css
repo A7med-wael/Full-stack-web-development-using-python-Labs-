@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  background-color: #000;
+  overflow: hidden;
+  height: 50px;
+}
+
+.logo {
+  font-family: "Merienda", cursive;
+  font-size: 24px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #9e8054;
+  font-weight: bold;
+  color: #000;
+}
+
+.about-section {
+  padding: 40px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+}
+
+.about-content {
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(124, 99, 71, 0.4);
+  text-align: left;
+}
+
+.about-content h1 {
+  font-family: "Caveat", cursive;
+  font-size: 54px;
+  margin-bottom: 30px;
+  color: #f9f9f9;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 19px;
+  line-height: 1.9;
+  color: #dddddd;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.about-content ul {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-content ul li {
+  margin-bottom: 15px;
+  font-size: 17px;
+  background-color: #262626;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border-left: 4px solid #7c6747;
+  color: #ccc;
+}
+
+.about-content ul li strong {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 20px;
+  }
+  nav a {
+    margin: 10px;
+  }
+  .about-content {
+    padding: 30px 20px;
+  }
+}

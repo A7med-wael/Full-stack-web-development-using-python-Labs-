@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  background-color: #000;
+  overflow: hidden;
+  height: 50px;
+}
+
+.logo {
+  font-family: "Merienda", cursive;
+  font-size: 24px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #9e8054;
+  font-weight: bold;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px;
+  background: radial-gradient(circle at left, #1a1a1a 30%, #000 100%);
+}
+
+.hero-text {
+  max-width: 60%;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-family: "Merienda", cursive;
+  margin-bottom: 20px;
+}
+
+.hero-text span {
+  font-family: "Merienda", cursive;
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #aaa;
+  max-width: 90%;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: white;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 0 200px 200px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
