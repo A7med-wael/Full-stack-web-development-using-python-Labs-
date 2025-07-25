@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="welcome" id="message"></div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const username = params.get("username");
+      
+      if (username) {
+        document.getElementById("message").textContent = "Welcome " + username;
+      } else {
+        document.getElementById("message").textContent = "Welcome Guest";
+      }
+    </script>
+  </body>
+</html>
