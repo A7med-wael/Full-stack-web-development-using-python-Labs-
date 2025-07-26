@@ -5,7 +5,7 @@ Each folder contains labs related to a specific topic in the course.
 
 ## 📁 Folders and Their Contents
 
-### 🔷 HTML/
+### 🔷 HTML
 Labs focused on HTML structure and elements.  
 **Labs:** Lab 1, Lab 2  
 **Examples:**  
@@ -15,7 +15,7 @@ Labs focused on HTML structure and elements.
 
 ---
 
-### 🔷 CSS/
+### 🔷 CSS
 Labs related to styling with CSS.  
 **Labs:** Lab 3, Lab 3(1)  
 **Examples:**  
@@ -25,7 +25,7 @@ Labs related to styling with CSS.
 
 ---
 
-### 🔷 JavaScript/
+### 🔷 JavaScript
 Labs involving client-side scripting with JavaScript.  
 **Labs:** Lab 4, Lab 5, Lab 7  
 **Examples:**  
@@ -35,7 +35,7 @@ Labs involving client-side scripting with JavaScript.
 
 ---
 
-### 🔷 Portfolio/
+### 🔷 Portfolio
 My own website project or showcase combining all learned topics.  
 **Labs:** Lab 6  
 **Examples:**  
@@ -49,7 +49,7 @@ My own website project or showcase combining all learned topics.
 
 ---
 
-### 🔷 Bootstrap/
+### 🔷 Bootstrap
 Labs using Bootstrap framework for fast UI development.  
 **Labs:** Lab 8  
 **Examples:**  
@@ -63,7 +63,7 @@ Labs using Bootstrap framework for fast UI development.
 
 ---
 
-### 🔷 Database/
+### 🔷 Database
 Labs related to working with databases and SQL.  
 **Labs:** Lab 9, Lab 10, Lab 11  
 **Examples:**  
@@ -73,7 +73,7 @@ Labs related to working with databases and SQL.
 
 ---
 
-### 🔷 Python/
+### 🔷 Python
 Labs focused on Python programming.  
 **Labs:** Lab 12, Lab 13, Lab 14, Lab 15, Lab 16  
 **Examples:**  
@@ -83,7 +83,7 @@ Labs focused on Python programming.
 
 ---
 
-### 🔷 Django/
+### 🔷 Django
 Labs involving the Django web framework.  
 **Labs:** Lab 16(1), Lab 17, Lab 18, Lab 19, Lab 20  
 **Examples:**  
