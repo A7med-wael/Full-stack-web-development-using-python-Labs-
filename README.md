@@ -43,6 +43,8 @@ My own website project or showcase combining all learned topics.
 - Contact form with validation  
 - Clean, responsive layout using HTML, CSS, JS
 
+![Portfolio Preview](Portfolio/images/home.png)
+
 ---
 
 ### 🔷 Bootstrap/
