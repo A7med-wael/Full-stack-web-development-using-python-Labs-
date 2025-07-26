@@ -43,18 +43,9 @@ My own website project or showcase combining all learned topics.
 - Contact form with validation  
 - Clean, responsive layout using HTML, CSS, JS
 
-<table>
-  <tr>
-    <th>Portfolio v1</th>
-    <th>Portfolio v2</th>
-    <th>Portfolio v3</th>
-  </tr>
-  <tr>
-    <td><img src="Portfolio/images/home.png" width="500" heigh="1000"/></td>
-    <td><img src="Portfolio/images/home.png" width="500" heigh="1000"/></td>
-    <td><img src="Portfolio/images/home.png" width="500" heigh="1000"/></td>
-  </tr>
-</table>
+| Portfolio v1 | Portfolio v2 | Portfolio v3 |
+|--------------|--------------|--------------|
+| ![v1](Portfolio/images/home.png) | ![v2](Portfolio/images/home.png) | ![v3](Portfolio/images/home.png) |
 
 ---
 
