@@ -7,6 +7,7 @@ Each folder contains labs related to a specific topic in the course.
 
 ### 🔷 HTML/
 Labs focused on HTML structure and elements.  
+**Labs:** Lab 1, Lab 2  
 **Examples:**  
 - Creating a basic HTML page  
 - Using semantic tags  
@@ -16,6 +17,7 @@ Labs focused on HTML structure and elements.
 
 ### 🔷 CSS/
 Labs related to styling with CSS.  
+**Labs:** Lab 3, Lab 3(1)  
 **Examples:**  
 - CSS selectors and properties  
 - Flexbox and Grid  
@@ -23,17 +25,9 @@ Labs related to styling with CSS.
 
 ---
 
-### 🔷 Bootstrap/
-Labs using Bootstrap framework for fast UI development.  
-**Examples:**  
-- Grid system  
-- Components (cards, modals, navbars)  
-- Theming
-
----
-
 ### 🔷 JavaScript/
 Labs involving client-side scripting with JavaScript.  
+**Labs:** Lab 4, Lab 5, Lab 7  
 **Examples:**  
 - DOM manipulation  
 - Events and functions  
@@ -41,8 +35,29 @@ Labs involving client-side scripting with JavaScript.
 
 ---
 
+### 🔷 Portfolio/
+My own website project or showcase combining all learned topics.  
+**Labs:** Lab 6  
+**Examples:**  
+- Personal portfolio with multiple pages  
+- Contact form with validation  
+- Clean, responsive layout using HTML, CSS, JS
+
+---
+
+### 🔷 Bootstrap/
+Labs using Bootstrap framework for fast UI development.  
+**Labs:** Lab 8  
+**Examples:**  
+- Grid system  
+- Components (cards, modals, navbars)  
+- Theming
+
+---
+
 ### 🔷 Database/
 Labs related to working with databases and SQL.  
+**Labs:** Lab 9, Lab 10, Lab 11  
 **Examples:**  
 - Creating tables  
 - Writing SELECT, INSERT queries  
@@ -50,12 +65,23 @@ Labs related to working with databases and SQL.
 
 ---
 
-### 🔷 Portfolio/
-My own website project or showcase combining all learned topics.  
+### 🔷 Python/
+Labs focused on Python programming.  
+**Labs:** Lab 12, Lab 13, Lab 14, Lab 15, Lab 16  
 **Examples:**  
-- Personal portfolio with multiple pages  
-- Contact form with validation  
-- Clean, responsive layout using HTML, CSS, JS
+- File handling  
+- Functions and loops  
+- Data manipulation
+
+---
+
+### 🔷 Django/
+Labs involving the Django web framework.  
+**Labs:** Lab 16(1), Lab 17, Lab 18, Lab 19, Lab 20  
+**Examples:**  
+- Creating Django projects and apps  
+- Models, views, templates  
+- Admin panel and routing
 
 ---
 
@@ -67,4 +93,4 @@ My own website project or showcase combining all learned topics.
 ---
 
 ## 👨‍💻 Author
-Ahmed Wael – Full Stack Web Development Student @ ITI  
+Ahmed Wael – Full Stack Web Development Student @ ITI
