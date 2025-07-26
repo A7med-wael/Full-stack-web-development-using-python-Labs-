@@ -50,9 +50,9 @@ My own website project or showcase combining all learned topics.
     <th>Portfolio v3</th>
   </tr>
   <tr>
-    <td><img src="Portfolio/images/home.png" width="500"/></td>
-    <td><img src="Portfolio/images/home.png" width="500"/></td>
-    <td><img src="Portfolio/images/home.png" width="500"/></td>
+    <td><img src="Portfolio/images/home.png" width="500" heigh="500"/></td>
+    <td><img src="Portfolio/images/home.png" width="500" heigh="500"/></td>
+    <td><img src="Portfolio/images/home.png" width="500" heigh="500"/></td>
   </tr>
 </table>
 
