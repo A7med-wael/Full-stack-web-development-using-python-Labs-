@@ -43,9 +43,9 @@ My own website project or showcase combining all learned topics.
 - Contact form with validation  
 - Clean, responsive layout using HTML, CSS, JS
 
-| Portfolio v1 | Portfolio v2 | Portfolio v3 |
+| Home page | About page | Contact Me page |
 |--------------|--------------|--------------|
-| ![v1](Portfolio/images/home.png) | ![v2](Portfolio/images/home.png) | ![v3](Portfolio/images/home.png) |
+| ![v1](Portfolio/images/home.png) | ![v2](Portfolio/images/about.png) | ![v3](Portfolio/images/contactMe.png) |
 
 ---
 
@@ -56,6 +56,10 @@ Labs using Bootstrap framework for fast UI development.
 - Grid system  
 - Components (cards, modals, navbars)  
 - Theming
+
+| Home page |
+|--------------|
+| ![v1](Bootstrap/Lab_8/images/home.png) |
 
 ---
 
