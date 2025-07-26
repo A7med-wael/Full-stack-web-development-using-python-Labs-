@@ -43,7 +43,18 @@ My own website project or showcase combining all learned topics.
 - Contact form with validation  
 - Clean, responsive layout using HTML, CSS, JS
 
-![Portfolio Preview](Portfolio/images/home.png)
+<table>
+  <tr>
+    <th>Portfolio v1</th>
+    <th>Portfolio v2</th>
+    <th>Portfolio v3</th>
+  </tr>
+  <tr>
+    <td><img src="Portfolio/images/home.png" width="200"/></td>
+    <td><img src="Portfolio/images/home.png" width="200"/></td>
+    <td><img src="Portfolio/images/home.png" width="200"/></td>
+  </tr>
+</table>
 
 ---
 
