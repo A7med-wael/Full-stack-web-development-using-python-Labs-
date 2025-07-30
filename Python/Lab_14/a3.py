@@ -1,95 +1,95 @@
-# def login_register():
-#     name = input("Whats your name: ")
-#     print(f"Welcome {name}, You can:")
-#     while True:
-#         print("1.Register\n2.Login\n3.Exit")
-#         num = input("please choose operation number :")
-#         if not num.isdigit():
-#             print("please choose number from list: ")
-#             continue
-#         else:
-#             num = int(num)
-#             if num == 1:
-#                 uname = input("Enter your username: ")
-#                 pwd = input("Enter your password: ")
-#                 email = input("Enter your email: ")
-#                 file = open("file1.txt",'a')
-#                 file.write(f"{uname},{pwd}\n")
-#                 file.close()
-#                 print("Register Successfully")
-#             elif num == 2:
-#                 uname = input("Enter your username: ")
-#                 pwd = input("Enter your password: ")
-#                 file = open("file1.txt", 'r')
-#                 list = file.read().split()
-#                 f = False
-#                 for i in list:
-#                     i = i.split(',')
-#                     if uname == i[0] and pwd == i[1]:
-#                         print("Login successfully")
-#                         f = True
-#                 if f == False:
-#                     print("user not found, you should register at first")
-#                 else:
-#                     break
-#             elif num == 3:
-#                 break
-# login_register()
+def login_register():
+    name = input("Whats your name: ")
+    print(f"Welcome {name}, You can:")
+    while True:
+        print("1.Register\n2.Login\n3.Exit")
+        num = input("please choose operation number :")
+        if not num.isdigit():
+            print("please choose number from list: ")
+            continue
+        else:
+            num = int(num)
+            if num == 1:
+                uname = input("Enter your username: ")
+                pwd = input("Enter your password: ")
+                email = input("Enter your email: ")
+                file = open("file1.txt",'a')
+                file.write(f"{uname},{pwd}\n")
+                file.close()
+                print("Register Successfully")
+            elif num == 2:
+                uname = input("Enter your username: ")
+                pwd = input("Enter your password: ")
+                file = open("file1.txt", 'r')
+                list = file.read().split()
+                f = False
+                for i in list:
+                    i = i.split(',')
+                    if uname == i[0] and pwd == i[1]:
+                        print("Login successfully")
+                        f = True
+                if f == False:
+                    print("user not found, you should register at first")
+                else:
+                    break
+            elif num == 3:
+                break
+login_register()
 
 
-# def replaceCoin():
-#     qty = float(input("Enter the Qty: "))
-#     print("Choose the type of coin you want 'replace from' :")
-#     print("1.USD\n2.SAR\n3.EUR")
-#     ch = int(input("Enter your chooies: "))
-#     print("choose the type of coin you want 'replace to' :")
-#     usd = 1.00
-#     sar = 3.75
-#     eur = 0.99
-#     res = 0.00
-#     one = "null"
-#     two = "null"
-#     if ch == 1:
-#         one = "USD"
-#         print("1.SAR\n2.EUR")
-#         ch2 = int(input("Enter your chooies: "))
-#         if ch2 == 1:
-#             two = "SAR"
-#             res = qty * sar
-#         elif ch == 2:
-#             two = "EUR"
-#             res = qty * eur
-#     elif ch == 2:
-#         one = "SAR"
-#         print("1.USD\n2.EUR")
-#         ch2 = int(input("Enter your chooies: "))
-#         if ch2 == 1:
-#             two = "USD"
-#             res = qty / sar
-#         elif ch == 2:
-#             two = "EUR"
-#             res = (qty / sar) * eur
-#     elif ch == 3:
-#         one = "EUR"
-#         print("1.USD\n2.SAR")
-#         ch2 = int(input("Enter your chooies: "))
-#         if ch2 == 1:
-#             two = "USD"
-#             res = qty / eur
-#         elif ch == 2:
-#             two = "SAR"
-#             res = (qty / eur) * sar
-#     print(f"{qty} {one} = {res:.2f} {two}")
+def replaceCoin():
+    qty = float(input("Enter the Qty: "))
+    print("Choose the type of coin you want 'replace from' :")
+    print("1.USD\n2.SAR\n3.EUR")
+    ch = int(input("Enter your chooies: "))
+    print("choose the type of coin you want 'replace to' :")
+    usd = 1.00
+    sar = 3.75
+    eur = 0.99
+    res = 0.00
+    one = "null"
+    two = "null"
+    if ch == 1:
+        one = "USD"
+        print("1.SAR\n2.EUR")
+        ch2 = int(input("Enter your chooies: "))
+        if ch2 == 1:
+            two = "SAR"
+            res = qty * sar
+        elif ch == 2:
+            two = "EUR"
+            res = qty * eur
+    elif ch == 2:
+        one = "SAR"
+        print("1.USD\n2.EUR")
+        ch2 = int(input("Enter your chooies: "))
+        if ch2 == 1:
+            two = "USD"
+            res = qty / sar
+        elif ch == 2:
+            two = "EUR"
+            res = (qty / sar) * eur
+    elif ch == 3:
+        one = "EUR"
+        print("1.USD\n2.SAR")
+        ch2 = int(input("Enter your chooies: "))
+        if ch2 == 1:
+            two = "USD"
+            res = qty / eur
+        elif ch == 2:
+            two = "SAR"
+            res = (qty / eur) * sar
+    print(f"{qty} {one} = {res:.2f} {two}")
         
-# replaceCoin()
+replaceCoin()
 
 
-# def calc_price(price):
-#     tax_rate = price * 0.07
-#     return price + tax_rate
+def calc_price(price):
+    tax_rate = price * 0.07
+    return price + tax_rate
 
-# price = float(input("Enter the price: "))
-# print(calc_price(price))
+price = float(input("Enter the price: "))
+print(calc_price(price))
 
 class Book:
     def __init__(self, name, author):
