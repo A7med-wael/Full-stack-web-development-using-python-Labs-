@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block title%}
+create post
+{%endblock title%}
+
+{% block content %}
+<h1>Create Post</h1>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+{{form}}
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script src="{% static 'posts/js/script.js' %}"></script>
+{% endblock content %}

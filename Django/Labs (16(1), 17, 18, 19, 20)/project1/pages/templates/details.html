@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block title%}
+posts
+{%endblock title%}
+{% block content %}
+<div class="card" style="width: 18rem;">
+  <img src="{{ post.get_image_url }}"  class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{post.title}}</h5>
+    <p class="card-text">{{post.description}}.</p>
+    <p class="card-text">{{post.category}}.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<br>
+<h2>Related Posts</h2>
+{% for p in post.category.posts_category.all %}
+<ul>
+  {% if post.id != p.id %}
+    <li><a href="{% url 'posts.details' p.id %}">{{p.title}}</a></li>
+  {% endif %}
+</ul>
+{% endfor %}
+{% endblock content %}
