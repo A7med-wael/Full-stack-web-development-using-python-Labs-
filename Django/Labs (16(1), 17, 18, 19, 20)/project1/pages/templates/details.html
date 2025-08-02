@@ -18,7 +18,7 @@ posts
 {% for p in post.category.posts_category.all %}
 <ul>
   {% if post.id != p.id %}
-    <li><a href="{% url 'posts.details' p.id %}">{{p.title}}</a></li>
+    <li><a href="{% url 'details' p.id %}">{{p.title}}</a></li>
   {% endif %}
 </ul>
 {% endfor %}

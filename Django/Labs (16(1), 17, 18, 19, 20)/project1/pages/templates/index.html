@@ -5,7 +5,7 @@ posts
 
 {% block content %}
 <h1>Posts</h1>
-<a class="btn btn-primary" href="{% url 'posts.create' %}">Create Post</a>
+<a class="btn btn-primary" href="{% url 'create' %}">Create Post</a>
 <table class="table">
     <thead>
     <tr>
@@ -22,9 +22,9 @@ posts
         <td>{{post.title}}</td>
         <td>{{post.description}}</td>
         <td>
-            <a class="btn btn-primary" href="{% url 'posts.details' post.id %}">Details</a>
-            <a class="btn btn-danger" href="{% url 'posts.delete' post.id %}">Delete</a>
-            <a class="btn btn-warning" href="{% url 'posts.update' post.id %}">Edit</a>
+            <a class="btn btn-primary" href="{% url 'details' post.id %}">Details</a>
+            <a class="btn btn-danger" href="{% url 'delete' post.id %}">Delete</a>
+            <a class="btn btn-warning" href="{% url 'update' post.id %}">Edit</a>
         </td>
 
     </tr>

@@ -3,6 +3,7 @@ from django.shortcuts import render,get_object_or_404,redirect
 from django.http import HttpResponse
 from pages.models import Post
 from category.models import Category
+from pages.forms import PostModelForm
 
 # Create your views here.
 def base(request):

@@ -2,6 +2,7 @@ from django.shortcuts import render,get_object_or_404,redirect
 from django.http import HttpResponse
 from pages.models import Post
 from category.models import Category
+from category.forms import CategoryForm
 
 # Create your views here.
 
@@ -16,10 +17,10 @@ def details(request,id):
 def update_category(request,id):
     category = get_object_or_404(Category,id=id)
     if request.method == 'GET':
-        form = PostModelForm(instance=category)
+        form = CategoryForm(instance=category)
         return render(request, 'category/editform.html',context={'form':form})
     elif request.method == 'POST':
-        form = PostModelForm(request.POST,request.FILES,instance=category)
+        form = CategoryForm(request.POST,request.FILES,instance=category)
         if form.is_valid():
             print(form.cleaned_data)
             form.save()
@@ -33,10 +34,10 @@ def delete_category(request,id):
 
 def create_category(request):
     if request.method == 'GET':
-        form = PostModelForm()
+        form = CategoryForm()
         return render(request, 'category/createform.html',context={'form':form})
     elif request.method == 'POST':
-        form = PostModelForm(request.POST,request.FILES)
+        form = CategoryForm(request.POST,request.FILES)
         if form.is_valid():
             print(form.cleaned_data)
             form.save()
