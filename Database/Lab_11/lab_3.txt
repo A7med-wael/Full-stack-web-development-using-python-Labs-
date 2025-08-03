@@ -1,0 +1,95 @@
+-- create database student_quiz;
+
+-- create table student1(id serial primary key, name varchar(20) not null, email varchar(50), age int, grade int, course varchar(20));
+
+-- alter table student1 alter column grade type char(1);
+
+-- insert into student1 (name, email, age, grade, course)
+-- values 
+-- ('Alice Johnson', 'alice@email.com', 20, 'A', 'course Math'),
+-- ('Bob Smith', 'bob@email.com', 22, 'C', 'course Science'),
+-- ('Carol Davis', 'carol@email.com', 19, 'A', 'course English'),
+-- ('David Wilson', 'david@email.com', 21, 'B', 'course Math'),
+-- ('Emma Brown', 'emma@email.com', 18, 'B', 'course History');
+
+-- select * from student1
+-- where age > 20
+
+-- select name, course from student1
+-- where grade = 'A';
+
+-- select course, count(*) from student1  group by course;
+
+-- select * from student1 
+-- where course = 'course Math'
+-- order by age
+
+-- select * from student1
+-- where grade in ('A', 'B')
+-- order by name
+
+-- update student1
+-- set age = 23
+-- where name = 'Bob Smith'
+-- select * from student1
+
+-- update student1
+-- set grade = 'B'
+-- where grade = 'C'
+-- select * from student1
+
+-- update student1
+-- set course = 'Advanced Math'
+-- where course = 'course Math'
+-- select * from student1
+
+-- update student1
+-- set age = age+1
+-- where grade = 'A'
+-- select * from student1
+
+-- alter table student1
+-- add column phone varchar(15)
+-- select * from student1
+
+-- alter table student1
+-- add column gpa decimal(3,2) default 0.0
+-- select * from student1
+
+-- alter table student1
+-- alter column name type varchar(150)
+-- select * from student1
+
+-- alter table student1
+-- add constraint unique_email unique (email)
+-- select * from student1
+
+-- alter table student1
+-- add constraint check_age check (age between 16 and 65)
+-- select * from student1
+
+-- alter table student1
+-- add constraint check_grade check (grade in('A','B','C','D','F'))
+
+-- delete from student1
+-- where age < 19
+-- select * from student1
+
+-- delete from student1
+-- where grade = 'F'
+-- select * from student1
+
+-- delete from student1
+-- where name = 'Carol Davis'
+-- select * from student1
+
+-- alter table student1
+-- drop constraint check_age
+
+-- update student1
+-- set gpa = 3.8 
+-- where grade = 'A'
+-- select * from student1
+
+select grade, avg(age) from student1 group by grade
+
